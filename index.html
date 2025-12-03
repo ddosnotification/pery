@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="podperos - Vždy čerstvé nikotínové vrecúška. Pod perou, po ruke.">
+    <title>podperos | Pod perou, vždy čerstvé</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Age Verification Modal -->
+    <div id="ageModal" class="age-modal">
+        <div class="age-modal-content">
+            <div class="age-modal-icon">🔞</div>
+            <h2>Overenie veku</h2>
+            <p>Táto stránka obsahuje informácie o nikotínových výrobkoch.</p>
+            <p class="age-warning">Máte 18 rokov alebo viac?</p>
+            <div class="age-buttons">
+                <button id="ageYes" class="btn-yes">Áno, mám 18+</button>
+                <button id="ageNo" class="btn-no">Nie</button>
+            </div>
+            <p class="age-disclaimer">Vstupom potvrdzujete, že ste dosiahli zákonný vek na nákup nikotínových výrobkov.</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="podperos logo">
+                <span>podperos</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Domov</a>
+                <a href="#about">O nás</a>
+                <a href="#philosophy">Filozofia</a>
+                <a href="#contact">Kontakt</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="lips-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="hero-title">POD<span class="highlight">PEROS</span></h1>
+                <p class="hero-subtitle">Pod perou, vždy čerstvé</p>
+                <p class="hero-tagline">Nové chute. Nové pocity. Nový štýl.</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Zisti viac</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>⌄</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Čo je <span class="highlight">podperos</span>?</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-card" data-aos="fade-right" data-aos-delay="100">
+                    <div class="card-icon">💼</div>
+                    <h3>Naša misia</h3>
+                    <p>Prinášame moderný prístup k nikotínovým vrecúškam. Naše vendingové automaty sú umiestnené na strategických miestach, aby ste mali vždy prístup k najnovším produktom.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">🎯</div>
+                    <h3>Vždy čerstvé</h3>
+                    <p>Neustále aktualizujeme náš sortiment. Fresh drops, nové príchute, top značky. Podperos znamená byť vždy o krok vpred.</p>
+                </div>
+                <div class="about-card" data-aos="fade-left" data-aos-delay="300">
+                    <div class="card-icon">⚡</div>
+                    <h3>Rýchlo & Diskrétne</h3>
+                    <p>Žiadne čakanie, žiadne otázky. Jednoducho pristúp k automatu, vyber si a užívaj si modernú nikotínovú skúsenosť pod perou.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Info Section -->
+    <section class="products-info">
+        <div class="container">
+            <div class="products-grid">
+                <div class="product-feature" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-visual">
+                        <div class="pouch-illustration"></div>
+                    </div>
+                    <h3>Nikotínové vrecúška</h3>
+                    <p>Široký výber značiek a príchutí. Od klasických až po exotické - vždy máme niečo nové.</p>
+                </div>
+                <div class="product-feature" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="feature-visual">
+                        <div class="vape-illustration"></div>
+                    </div>
+                    <h3>Špeciálne vapingové produkty</h3>
+                    <p>Príležitostne ponúkame exkluzívne vapingové novinky pre tých, ktorí chcú niečo výnimočné.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="philosophy-section">
+        <div class="container">
+            <div class="philosophy-content">
+                <div class="philosophy-text" data-aos="fade-right">
+                    <h2>Naša <span class="highlight">filozofia</span></h2>
+                    <div class="underline"></div>
+                    <p class="lead">podperos nie je len o nikotínových vrecúškach. Je to životný štýl.</p>
+                    <ul class="philosophy-list">
+                        <li><span class="check">✓</span> <strong>Moderný prístup</strong> - Žiadne staré návyky, len fresh vibe</li>
+                        <li><span class="check">✓</span> <strong>Vždy dostupné</strong> - Naše automaty sú tam, kde ich potrebuješ</li>
+                        <li><span class="check">✓</span> <strong>Top kvalita</strong> - Len overené značky a produkty</li>
+                        <li><span class="check">✓</span> <strong>Urbánny štýl</strong> - Pre mladých, aktívnych, tých čo idú s dobou</li>
+                    </ul>
+                    <p class="tagline-bottom">Pod perou. Po ruke. Vždy fresh.</p>
+                </div>
+                <div class="philosophy-visual" data-aos="fade-left">
+                    <div class="visual-circle"></div>
+                    <div class="visual-text">
+                        <span class="big-text">pod</span>
+                        <span class="big-text">peros</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Pripravený na <span class="highlight">nový zážitok</span>?</h2>
+                <p>Nájdi náš najbližší automat a objavuj najnovšie príchute</p>
+                <div class="cta-stats">
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Dostupnosť</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Fresh</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Nové chute</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="podperos logo">
+                        <span>podperos</span>
+                    </div>
+                    <p>Pod perou, vždy čerstvé</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Menu</h4>
+                    <a href="#home">Domov</a>
+                    <a href="#about">O nás</a>
+                    <a href="#philosophy">Filozofia</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontakt</h4>
+                    <p>info@podperos.sk</p>
+                    <p>+421 XXX XXX XXX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 podperos. Všetky práva vyhradené.</p>
+                <p class="warning">⚠️ Výrobky obsahujú nikotín, ktorý je návykový. Len pre dospelých 18+</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
